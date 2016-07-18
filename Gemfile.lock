@@ -1,0 +1,57 @@
+GIT
+  remote: git://github.com/winebarrel/kumogata2.git
+  revision: bd453a3ebd810f643413619ba41d51e6a4397cd4
+  specs:
+    kumogata2 (0.1.7)
+      aws-sdk (~> 2.3.0)
+      coderay
+      diffy
+      hashie
+      highline
+      term-ansicolor
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    aws-sdk (2.3.22)
+      aws-sdk-resources (= 2.3.22)
+    aws-sdk-core (2.3.22)
+      jmespath (~> 1.0)
+    aws-sdk-resources (2.3.22)
+      aws-sdk-core (= 2.3.22)
+    coderay (1.1.1)
+    diffy (3.1.0)
+    dslh (0.3.8)
+    hashie (3.4.4)
+    highline (1.7.8)
+    jmespath (1.3.0)
+    kumogata2-plugin-ruby (0.1.3)
+      dslh (>= 0.3.7)
+      kumogata2
+    method_source (0.8.2)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-doc (0.9.0)
+      pry (~> 0.9)
+      yard (~> 0.8)
+    rake (11.2.2)
+    slop (3.6.0)
+    term-ansicolor (1.3.2)
+      tins (~> 1.0)
+    tins (1.11.0)
+    yard (0.9.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  kumogata2!
+  kumogata2-plugin-ruby
+  pry
+  pry-doc
+  rake
+
+BUNDLED WITH
+   1.12.5
